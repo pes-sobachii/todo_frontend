@@ -7,6 +7,9 @@ const StyledFlex = styled.div`
   justify-content: center;
   align-items: center;
   margin: 30px auto;
+  @media (max-width: 700px) {
+    width: 90%;
+  }
 `
 
 const InputFlex = ({children}) => {

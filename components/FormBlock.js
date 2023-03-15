@@ -15,6 +15,12 @@ const StyledFormBlock = styled.div`
       color: deepskyblue;
     }
   }
+  @media (max-width: 700px) {
+    width: 90%;
+    span {
+      font-size: 0.8rem;
+    }
+  }
 `
 
 const FormBlock = ({children}) => {
